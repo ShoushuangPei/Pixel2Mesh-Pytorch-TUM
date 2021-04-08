@@ -18,6 +18,7 @@ args.add_argument('--image',
                   help='Testing image.',
                   type=str,
                   default='data/testing_data/chair_03.png')
+#输入图片
 args.add_argument('--cnn_type',
                   help='Type of Neural Network',
                   type=str,
