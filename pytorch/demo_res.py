@@ -27,6 +27,7 @@ args.add_argument('--checkpoint',
                   help='Checkpoint to use.',
                   type=str,
                   default='data/checkpoints/last_checkpoint_res.pt')
+#检查点位置
 args.add_argument('--info_ellipsoid',
                   help='Initial Ellipsoid info',
                   type=str,
