@@ -89,7 +89,7 @@ data.setDaemon(True)
 data.start()
 train_number = data.number
 print('---- Loadind training data, {} num samples'.format(train_number))
-
+#可以把这个test_list输出来，看看是否用的是全部数据集
 test_list = []
 with open(FLAGS.testing_data, 'r+', encoding="utf-8") as f:
     while (True):
